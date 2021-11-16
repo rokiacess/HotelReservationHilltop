@@ -1,0 +1,94 @@
+/*                        villa                                           */
+.rooms{
+    background: url('../assets/0.jpg');
+    background-size: cover;
+}
+.villa .roomtitle,
+.villa p
+{
+     color: rgb(3, 3, 3);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+.villa h2{
+     color: rgb(248, 10, 10);
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.rooms .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.rooms .content .box{
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rooms .content .box .imgbx{
+    position: relative;
+    width:  300px;
+    height: 200px;
+    margin-bottom: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+.rooms .content .box .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:  400px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.rooms .content .box .text{
+    text-align: center;
+}
+.rooms .content .box .text p{
+    color: #666;
+    font-style: italic;
+}
+.rooms .content .box .text h3{
+    margin-top: 20px;
+    color: #111;
+    font-size: 1em;
+    color: #161516;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+    }
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+  }
+ /*              x          villa                x                           */
